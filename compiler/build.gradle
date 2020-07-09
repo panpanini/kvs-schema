@@ -9,7 +9,7 @@ sourceCompatibility = JavaVersion.VERSION_1_8
 dependencies {
     compile project(path: ":library", configuration: 'default')
     compile 'com.squareup:javapoet:1.2.0'
-    compileOnly 'com.google.auto.service:auto-service:1.0-rc2'
+    compileOnly 'com.google.auto.service:auto-service:1.0-rc7'
     compileOnly 'com.google.android:android:4.1.1.4'
 
     testCompile 'junit:junit:4.12'
